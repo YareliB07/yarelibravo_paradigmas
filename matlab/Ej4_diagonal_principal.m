@@ -12,7 +12,7 @@ A = [-1  7  0 17;
  
  % impresion de matriz usando 2 ciclos anidados 
  
- fprintf('Impresión de la diagonal principal \n')
+ fprintf('ImpresiÃ³n de la diagonal principal \n')
  
  for ren=1:1:renglones;
    for col=1:1:columnas;
