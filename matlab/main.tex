@@ -1,0 +1,83 @@
+\documentclass{report}
+\usepackage{graphicx}
+\begin{document}
+\begin{titlepage}
+\centering
+{\bfseries\LARGE Universidad Veracruzana \par}
+\vspace{1cm}
+{\scshape\Large Facultad de Negocios y Tecnolog\'ias  \par}
+\vspace{3cm}
+{\scshape\Huge Resumen Proyecto 3a \par}
+\vspace{3cm}
+{\itshape\Large Pruebas de Software \par}
+\vfill
+{\Large Autor: \par}
+{\Large Equipo OctoCat \par}
+\vfill
+{\large Jueves 27 de Octubre 2022 \par}
+
+\end{titlepage}
+
+
+
+\section{Introduccion}
+
+Para este proyecto nos enfocamos en conocer a detalle la forma adecuada de como emplear la regresión lineal y el coeficiente r, para ello nosotros llevamos a cabo una serie de ejemplos en una hoja de calculo utilizando conjuntos de valores que más adelante empleamos en el proyecto de pruebas. Para este proyecto es indispensable trabajar siguiendo los pasos a detalle en cada prueba, analizar, redactar, hacer pruebas, colaborar en equipo, medir tiempos, dividir tareas y autorizar cambios fueron habilidades importantes con las cuales apredimos a trabajar mejor en equipo. 
+
+
+
+
+
+\subsection{Objetivos} 
+ \begin{enumerate}
+ 
+ \item Calcular los parámetros de regresión lineal B0 y B1 los coeficientes de correlación r(x,y) y (r2) para un conjunto de n pares de datos
+ 
+ \item Prueba 1: Calcular los parámetros de regresión y los coeficientes de correlación entre el tamaño aproximado y el tamaño real añadido y modificado en la Tabla 1.Calcule el tamaño añadido y modificado del plan teniendo en cuenta un tamaño estimado del proxy de xk= 386.
+
+ \item Prueba 2: Calcule los parámetros de regresión y los coeficientes de correlación entre el tamaño proxy estimado y el tiempo de desarrollo real en la Tabla 1. Calcule el tiempo estimado dado un tamaño proxy estimado de xk= 386.
+
+ \item Prueba 3: Calcule los parámetros de regresión y los coeficientes de correlación entre el tamaño añadido y modificado del plan y el tamaño añadido y modificado real en la Tabla 1. Calcule el tamaño añadido y modificado del plan teniendo en cuenta un tamaño aproximado estimado de xk= 386.
+
+ \item Prueba 4: Calcule los parámetros de regresión y los coeficientes de correlación entre el tamaño del plan añadido y modificado y el tiempo de desarrollo real en la Tabla 1. Calcule la estimación del tiempo dado un tamaño aproximado de xk= 386 
+ 
+\end{enumerate}
+
+
+
+ \newpage
+\section{Regresi\'on Lineal}
+
+ La regresión lineal es una forma de ajustar óptimamente una línea a un conjunto de datos. La regresión lineal es la línea en la que se minimiza la distancia de todos los puntos a esa línea. La ecuación de una recta puede escribirse como:
+
+ \includegraphics[width=3cm, height=1.5cm]{linear_r.jpg}
+
+  Esta técnica se emplea para describir una variable de respuesta continua como una función de una o varias variables predictoras. Puede ayudar a comprender y predecir el comportamiento de sistemas complejos o a analizar datos experimentales, financieros y biológicos. Las técnicas de regresión lineal permiten crear un modelo lineal. Este modelo describe la relación entre una variable dependiente  y  (también conocida como la respuesta) como una función de una o varias variables independientes  Xi  (denominadas predictores). 
+
+ \includegraphics[width=\textwidth]{formula_lr.jpg}
+
+
+ \newpage
+ \section{Coeficiente R}
+ La correlación es una medida estadística que expresa hasta qué punto dos variables están relacionadas linealmente (esto es, cambian conjuntamente a una tasa constante). Es una herramienta común para describir relaciones simples sin hacer afirmaciones sobre causa y efecto. La correlación es útil para describir relaciones simples entre datos. 
+ 
+ \includegraphics[width=\textwidth]{formula_r.jpg}
+
+ Esta medida o índice de correlación r puede variar entre -1 y +1, ambos extremos indicando correlaciones perfectas, negativa y positiva respectivamente. Un valor de r = 0 indica que no existe relación lineal entre las dos variables. Una correlación positiva indica que ambas variables varían en el mismo sentido. Una correlación negativa significa que ambas variables varían en sentidos opuestos. 
+
+ \newpage
+\section{Resultados}
+ En este apartado ilustraré con las pruebas esperadas por el proyecto, las cuales pudieron ser retornadas en dos secciones, el primer issue contiene un total de 12 pruebas tomando en cuenta el conjunto de valores para x & y, fue elaborado por el ingeniero n.1  
+ 
+  \includegraphics[width=8cm, height=6cm]{values1.jpg}
+  
+Para el segundo issue fueron realizadas un total de 8 pruebas las cuales iban de la mano con el conjunto de valores utilizados en el anterior issue, se hicieron la pruebas necesarias para cada uno de los test elaborados por el ingeniero n.2
+ 
+ \includegraphics[width=8cm, height=6cm]{values2.jpg}
+
+ \newpage
+\section{Conclusiones}
+El análisis de regresión y correlación lineal constituyen métodos que se emplean paraconocer las relaciones y significación entre series de datos. Lo anterior, es de suma importancia para reforzar nuestras habilidades académicas ya que es aquí en donde se presentan variables de respuesta e independientes las cuales interactúan para originar las características de un proceso en particular y por ende; analizar, predecir valores de la variable dependiente yexaminar el grado de fuerza con que se relacionan dichas variables.
+
+
+\end{document}
